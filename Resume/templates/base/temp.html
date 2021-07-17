@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 {% load static %}
 <html>
-  <head>
-    <link rel="icon" href="{% static '/images/logo.jpg' %}" type="image/icon type">
-    <title>Gokulnath_G CV Page</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{% static '/css/master.css'  %}">
-  </head>
+
+<head>
+  <link rel="icon" href="{% static '/images/logo.jpg' %}" type="image/icon type">
+  <title>Gokulnath_G CV Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{% static '/css/master.css'  %}">
+</head>
 
 
 
@@ -50,23 +51,20 @@
   <!-- Container (About Section) -->
   <div class="w3-content w3-container w3-padding-64" id="about">
     <h3 class="w3-center">ABOUT ME</h3>
-    <p class="w3-center"><em>I'm Gokulnath G</em></p>
-      <!-- <div class="w3-col m6 w3-center w3-padding-large">
+    <p class="w3-center"><b><em>I'm Gokulnath G</em></b></p>
+    <!-- <div class="w3-col m6 w3-center w3-padding-large">
         <p><b><i class="fa fa-user w3-margin-right"></i>Gokulnath G</b></p><br>
         <img src="{% static 'images/Gokulnath.jpeg' %}" class="w3-round w3-image  " alt="Photo of Me" width="500"
           height="333">
       </div> -->
-      <div style="text-align: center;">
-        <img src="{% static 'images/Gokulnath.jpeg' %}" class="w3-round w3-image" style="border-radius: 50%; " alt="Photo of Me" width="400"
-        height="333">
-        <p class="mt-4 ml-6 mr-6">A Keen Student Interested in learning new things & Technologies Looking forward to obtain a creative and challenging position in an organization that gives me an opportunity for
-          self-improvement and leadership, while contributing to the symbolic growth of the organization with technical,
-          innovative and logical skills.</p>
-      </div>
-
-
-        
-
+    <div style="text-align: center;">
+      <img src="{% static 'images/Gokulnath.jpg' %}" class="w3-round w3-image" style="border-radius: 50%; "
+        alt="Photo of Me" width="400" height="333">
+      <h5 class="mt-4 ml-6 mr-6">A Keen Student Interested in learning new things & Technologies Looking forward to
+        obtain a creative and challenging position in an organization that gives me an opportunity for
+        self-improvement and leadership, while contributing to the symbolic growth of the organization with technical,
+        innovative and logical skills.</h5>
+    </div>
     <hr>
     <h3 class="w3-wide w3-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h3>
     <hr>
@@ -74,9 +72,16 @@
     <p>College of Engineering, Guindy</p>
     <p>08/2017 - Present</p>
     <hr>
+    <h5><b>BA in Hindi</b></h5>
+    <p>Dakshina Bharat Hindi Prachar Sabha</p>
+    <hr>
     <h3 class="w3-wide w3-center"><i class="fa fa-users" aria-hidden="true"></i> Experience</h3>
     <h5><b>Software Engineer/Penetration Tester</b></h5>
     <h5>DeadBed Cyber Solutions</h5>
+    <p>In development I used Android studio and Django to develop Mobile and
+      Web Application respectively.In Penetration testing I used tools like Burp
+      Suit to find vulnerabilities in Mobile/Web Applications.
+    </p>
     <li>12/2019 - 06/2020</li>
     <li>Cyber Security Awareness Camps and classes</li>
     <li>Penetration Testing</li>
@@ -84,6 +89,10 @@
     <hr>
     <h5><b>Software Engineer</b></h5>
     <h5>Kloud Technology Works Pvt Ltd</h5>
+    <p>In Kloudone I worked in a large scale data migration project.After migrating code elements from MsSql to
+      PostgreSQL we used tools like DBFit, JMeter for Testing and I also wrote some python automation scripts
+      for testing.
+    </p>
     <li>06/2020 - 01/2021</li>
     <li>Database Migration (MSSQL to PostgreSQL)</li>
     <li>Testing with Db Fit, Python Script, J Meter</li>
@@ -106,8 +115,24 @@
       &nbsp;<span class="badge badge-dark">AWS</span>
       &nbsp;<span class="badge badge-dark">Docker</span>
       &nbsp;<span class="badge badge-dark">Burp Suit</span>
+      &nbsp;<span class="badge badge-dark">Selenium</span>
     </h5>
-
+    <br>
+    <hr>
+    <h3 class="w3-wide w3-center"><i class="fa fa-gift" aria-hidden="true"></i> Personal Projects</h3>
+    <hr>
+    <h5><b>MSSQL PostgreSQL Migration Tester</b></h5>
+    <p>Python based program to verify database migration.It checks whether the migrated code is working fine
+      functionally. can also check the performance of databases. </p>
+    <hr>
+    <h5><b>Wifi Security</b></h5>
+    <p>It is a Java and Kotlin based android application using OpenVPN
+      service to prevent unauthorized Sniffing. </p>
+    <hr>
+    <h5><b>Django Web Applications</b></h5>
+    <p>I Developed some Application like CV Profile viewer , Blog poster etc
+      in Django Framework using SqLite and postgreSql DBs.
+    </p>
 
   </div>
 
@@ -122,8 +147,7 @@
   <!-- Container (certificates Section) -->
   <div class="w3-content w3-container w3-padding-64" id="certificates">
     <h3 class="w3-center">CERTIFICATES</h3>
-    <p class="w3-center"><em>Here are some of my Certificates.<br> Click on the certificates to make them
-        bigger</em></p><br>
+    <p class="w3-center"><em>Here are some of my Certificates.<br> Click on the certificates for clear view</em></p><br>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center w3-section">
@@ -187,14 +211,14 @@
           class="w3-hover-opacity">
       </div>
       <div class="w3-col m6">
-        <img src="{% static 'images/Certificates/Gokulnath G-1.png' %}" style="width:100%"
-          onclick="onClick(this)" class="w3-hover-opacity">
+        <img src="{% static 'images/Certificates/Gokulnath G-1.png' %}" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity">
       </div>
 
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m6">
-          <img src="{% static 'images/Certificates/GuviCertification - Y3jc763hv9yo1011t0.png' %}" style="width:100%" onclick="onClick(this)"
-            class="w3-hover-opacity">
+          <img src="{% static 'images/Certificates/GuviCertification - Y3jc763hv9yo1011t0.png' %}" style="width:100%"
+            onclick="onClick(this)" class="w3-hover-opacity">
         </div>
       </div>
     </div>
@@ -227,15 +251,17 @@
 
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chennai, India<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 7598573658<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 9789279519<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-        gocool7598@gmail.com<br>
+        gokulnath0801@gmail.com<br>
       </div>
 
       <div class="w3-xlarge w3-section">
-        <a href="https://github.com/Gokulnath7598">Github <i class="fab fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/gokul-nath-31283a1a0/">LinkedIn <i class="fab fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="mailto:gocool7598@gmail.com">Gmail <i class="fa fa-envelope" aria-hidden="true"></i></i></a>
+        <a href="https://github.com/Gokulnath7598">Github <i class="fab fa-github"
+            aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/gokul-nath-31283a1a0/">LinkedIn <i class="fab fa-linkedin"
+            aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:gokulnath0801@gmail.com">Gmail <i class="fa fa-envelope" aria-hidden="true"></i></i></a>
       </div>
 
     </div>
